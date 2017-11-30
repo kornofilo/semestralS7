@@ -33,7 +33,7 @@
 			<tr>
 			<td><?php echo $Test->plu;?></td>
 			<td><?php echo $Test->descripcion;?></td>
-			<td><?php echo $Test->precio;?></td>
+			<td><?php echo ($Test->precio)*($test->cantidad);?></td>
 			<td><?php  $Test->costo ;?></td>
 			<td>
 				

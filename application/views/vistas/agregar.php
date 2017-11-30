@@ -36,7 +36,6 @@
 		<label for="title" class="col-md-2 text-right"></label>
 		<div class="col-md-10">
 			<input type="submit" name="guardar" class="btn btn-success" value="guardar">
-			<a href="<?php echo base_url('index.php/test/guardar'); ?>" class="btn btn-primary">guardar</a>
 			<a href=" <?php echo base_url('index.php'); ?>" class="btn btn-info">Back</a>
 		</div>
 	</div>

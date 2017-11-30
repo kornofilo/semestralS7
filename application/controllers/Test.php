@@ -23,12 +23,12 @@ class Test extends CI_Controller{
 
 	function subir(){
 		
-			$titulo = $this->input->post('titulo');
+			$plu = $this->input->post('plu');
 			$descripcion = $this->input->post('descripcion');
-			$tamano = $this->input->post('tamano');
-			$color = $this->input->post('color');
+			$precio = $this->input->post('precio');
+			$costo = $this->input->post('costo');
 		
-		$result=$this->search_data->guardar($titulo,$descripcion,$tamano,$color);
+		$result=$this->search_data->guardar($titulo,$descripcion,$precio,$costo);
 		redirect('test/index');
 	}
 
