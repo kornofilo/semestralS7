@@ -11,6 +11,14 @@ class search_data extends CI_Model{
 			return false;
 		}
 	}
+	public function reporte(){
+		$query= $this->db->get('ventas');
+		if ($query->num_rows()>0) {
+			return $query->result();
+		}else{
+			return false;
+		}
+	}
 
 	function guardar($plu,$descripcion,$precio,$costo){
 		$campos=array(

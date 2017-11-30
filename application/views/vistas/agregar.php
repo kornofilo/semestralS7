@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>semestral</title>
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
+	<h3> guardar los datos de los articulos</h3>
 <form action="<?php echo base_url('test/subir');?>" method="post" class="form-horizontal">
 	<div class="form-group">
 		<label for="title" class="col-md-1 text-left">plu</label>
@@ -34,6 +36,7 @@
 		<label for="title" class="col-md-2 text-right"></label>
 		<div class="col-md-10">
 			<input type="submit" name="guardar" class="btn btn-success" value="guardar">
+			<a href="<?php echo base_url('index.php/test/guardar'); ?>" class="btn btn-primary">guardar</a>
 			<a href=" <?php echo base_url('index.php'); ?>" class="btn btn-info">Back</a>
 		</div>
 	</div>

@@ -17,6 +17,9 @@ class Test extends CI_Controller{
 	function agregar(){
 		$this->load->view('vistas/agregar');
 	}
+	function reporte(){
+		$this->load->view('vistas/reporte');
+	}
 
 	function subir(){
 		
